@@ -1,0 +1,25 @@
+# Configure JSON-RPC method services.
+services:
+  jsonrpc.method.a:
+    class: DemoApp\Method\MethodA
+    tags:
+    - { name: 'json_rpc_http_server.jsonrpc_method', method: 'bundledMethodA' }
+    - { name: 'json_rpc_http_server.jsonrpc_method', method: 'bundledMethodAAlias' }
+  jsonrpc.method.b:
+    class: DemoApp\Method\MethodB
+    tags:
+    - { name: 'json_rpc_http_server.jsonrpc_method', method: 'bundledMethodB' }
+  jsonrpc.method.c:
+    class: DemoApp\Method\MethodC
+    tags:
+    - { name: 'json_rpc_http_server.jsonrpc_method', method: 'bundledGetDummy' }
+  jsonrpc.method.d:
+    class: DemoApp\Method\MethodD
+    tags:
+    - { name: 'json_rpc_http_server.jsonrpc_method', method: 'bundledGetAnotherDummy' }
+
+  ## Mapping aware service
+  mapping_aware_service:
+    public: true # In order to allow Behat context to load it later
+    class: DemoApp\Collector\MappingCollector
+    tags: ['json_rpc_http_server.method_aware']

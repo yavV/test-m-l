@@ -1,0 +1,12 @@
+jms_serializer:
+  visitors:
+    json_serialization:
+      options: [JSON_UNESCAPED_UNICODE]
+    json_deserialization:
+      options: [JSON_UNESCAPED_UNICODE]
+  handlers:
+    datetime:
+      default_format: "Y-m-d\\TH:i:sP"
+      default_timezone: "UTC"
+  property_naming:
+    id: 'jms_serializer.identical_property_naming_strategy'

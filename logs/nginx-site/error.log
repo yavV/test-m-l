@@ -1,0 +1,19 @@
+2021/04/25 11:03:00 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/symfony.conf:15
+2021/04/27 08:33:28 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 08:35:19 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 08:36:38 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 08:38:14 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 08:41:40 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 08:42:44 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 08:49:36 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 08:57:11 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 08:58:52 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 08:59:25 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 09:06:23 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 09:11:42 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 09:13:34 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 09:18:11 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 09:29:21 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 09:30:17 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 09:44:35 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1
+2021/04/27 10:12:34 [emerg] 1#1: host not found in upstream "php:9000" in /etc/nginx/conf.d/upstream.conf:1

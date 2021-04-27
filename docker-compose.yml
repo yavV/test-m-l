@@ -1,0 +1,88 @@
+version: '2'
+services:
+    db-site:
+        container_name: db-site
+        image: mysql:8.0.22
+        command: ["--default-authentication-plugin=mysql_native_password"]
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: symfony
+            MYSQL_USER: symfony
+            MYSQL_PASSWORD: symfony
+        networks:
+            net_balance:
+                ipv4_address: 172.201.0.112
+
+    php-site:
+        container_name: php-fpm-site
+        build:
+            context: ./php-fpm-site
+            args:
+                ENABLE_PHP_XDEBUG: 0
+        volumes:
+            - ./symfony/site:/var/www/symfony
+        depends_on:
+            - db-site
+        networks:
+            net_balance:
+                ipv4_address: 172.201.0.111
+
+    nginx-site:
+        container_name: nginx-site
+        build: ./nginx-site
+        depends_on:
+            - php-site
+        volumes:
+            - ./logs/nginx-site:/var/log/nginx
+            - ./symfony/site:/var/www/symfony
+        networks:
+            net_balance:
+                ipv4_address: 172.201.0.110
+
+    db-balance:
+        container_name: db-balance
+        image: mysql:8.0.22
+        command: ["--default-authentication-plugin=mysql_native_password"]
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: symfony
+            MYSQL_USER: symfony
+            MYSQL_PASSWORD: symfony
+        networks:
+            net_balance:
+                ipv4_address: 172.201.0.12
+
+    php-balance:
+        container_name: php-fpm-balance
+        build:
+            context: ./php-fpm-balance
+            args:
+                ENABLE_PHP_XDEBUG: 0
+        volumes:
+            - ./symfony/balance:/var/www/symfony
+        depends_on:
+            - db-balance
+        networks:
+            net_balance:
+                ipv4_address: 172.201.0.11
+
+    nginx-balance:
+        container_name: nginx-balance
+        build: ./nginx-balance
+        depends_on:
+            - php-balance
+        volumes:
+            - ./logs/nginx-balance:/var/log/nginx
+            - ./symfony/balance:/var/www/symfony
+        networks:
+            net_balance:
+                ipv4_address: 172.201.0.10
+
+networks:
+    net_balance:
+        driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: 172.201.0.0/24
+                  gateway: 172.201.0.1

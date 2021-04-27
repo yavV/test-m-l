@@ -1,0 +1,1146 @@
+2021/04/27 11:34:58 [error] 28#28: *1 FastCGI sent in stderr: "PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /user-balance"" at /var/www/symfony/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerAr
+2021/04/27 11:34:58 [error] 28#28: *1 FastCGI sent in stderr: "der".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.200.0.1, server: 172.200.0.10, request: "GET /user-balance HTTP/1.1", upstream: "fastcgi://172.200.0.11:9001", host: "172.200.0.10"
+2021/04/27 11:35:38 [error] 28#28: *4 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception JsonRPC\Exception\ConnectionFailureException: "Unable to establish a connection" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/HttpClient.php line 296
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\E
+2021/04/27 11:35:38 [error] 28#28: *4 FastCGI sent in stderr: "on" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.200.0.1, server: 172.200.0.10, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.200.0.11:9001", host: "172.200.0.10"
+2021/04/27 11:36:44 [error] 28#28: *7 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception JsonRPC\Exception\ConnectionFailureException: "Unable to establish a connection" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/HttpClient.php line 296
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\E
+2021/04/27 11:36:44 [error] 28#28: *7 FastCGI sent in stderr: "on" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.200.0.1, server: 172.200.0.10, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.200.0.11:9001", host: "172.200.0.10"
+2021/04/27 11:37:39 [error] 28#28: *10 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception JsonRPC\Exception\ConnectionFailureException: "Unable to establish a connection" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/HttpClient.php line 296
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\
+2021/04/27 11:37:39 [error] 28#28: *10 FastCGI sent in stderr: "on" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.200.0.1, server: 172.200.0.10, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.200.0.11:9001", host: "172.200.0.10"
+2021/04/27 11:41:38 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception JsonRPC\Exception\InvalidJsonFormatException: "Malformed payload" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Validator/JsonFormatValidator.php line 25
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKerne
+2021/04/27 11:41:38 [error] 31#31: *1 FastCGI sent in stderr: "ption" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:42:55 [error] 31#31: *4 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception JsonRPC\Exception\InvalidJsonFormatException: "Malformed payload" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Validator/JsonFormatValidator.php line 25
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKerne
+2021/04/27 11:42:55 [error] 31#31: *4 FastCGI sent in stderr: "ption" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:44:28 [error] 31#31: *7 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception JsonRPC\Exception\InvalidJsonFormatException: "Malformed payload" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Validator/JsonFormatValidator.php line 25
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKerne
+2021/04/27 11:44:28 [error] 31#31: *7 FastCGI sent in stderr: "ption" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:44:31 [error] 31#31: *7 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception JsonRPC\Exception\InvalidJsonFormatException: "Malformed payload" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Validator/JsonFormatValidator.php line 25
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKerne
+2021/04/27 11:44:31 [error] 31#31: *7 FastCGI sent in stderr: "ption" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:44:31 [error] 31#31: *7 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception JsonRPC\Exception\InvalidJsonFormatException: "Malformed payload" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Validator/JsonFormatValidator.php line 25
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKerne
+2021/04/27 11:44:31 [error] 31#31: *7 FastCGI sent in stderr: "ption" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:44:32 [error] 31#31: *7 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception JsonRPC\Exception\InvalidJsonFormatException: "Malformed payload" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Validator/JsonFormatValidator.php line 25
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKerne
+2021/04/27 11:44:32 [error] 31#31: *7 FastCGI sent in stderr: "ption" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:46:57 [error] 31#31: *13 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":891374289}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 11:46:57 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+nullPHP message: [critical] Uncaught PHP Exception JsonRPC\Exception\InvalidJsonFormatException: "Malformed payload" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Validator/JsonFormatValidator.php line 25
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request"
+2021/04/27 11:46:57 [error] 31#31: *13 FastCGI sent in stderr: "tener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:51:24 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1230962535}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 11:51:24 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+nullPHP message: [critical] Uncaught PHP Exception JsonRPC\Exception\InvalidJsonFormatException: "Malformed payload" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Validator/JsonFormatValidator.php line 25
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request
+2021/04/27 11:51:24 [error] 31#31: *16 FastCGI sent in stderr: "stener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:51:29 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":855948523}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 11:51:29 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+nullPHP message: [critical] Uncaught PHP Exception JsonRPC\Exception\InvalidJsonFormatException: "Malformed payload" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Validator/JsonFormatValidator.php line 25
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request"
+2021/04/27 11:51:29 [error] 31#31: *16 FastCGI sent in stderr: "tener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:51:38 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1216616724}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 11:51:38 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+nullPHP message: [critical] Uncaught PHP Exception JsonRPC\Exception\InvalidJsonFormatException: "Malformed payload" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Validator/JsonFormatValidator.php line 25
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request
+2021/04/27 11:51:38 [error] 31#31: *16 FastCGI sent in stderr: "stener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:53:01 [error] 31#31: *22 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":838538472}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 11:53:01 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+nullPHP message: [critical] Uncaught PHP Exception TypeError: "array_keys(): Argument #1 ($array) must be of type array, null given" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Response/ResponseParser.php line 149
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kern
+2021/04/27 11:53:01 [error] 31#31: *22 FastCGI sent in stderr: "ion" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:53:01 [error] 31#31: *22 FastCGI sent in stderr: "PHP message: 2021-04-27T11:53:01+00:00 [critical] Uncaught Error: array_keys(): Argument #1 ($array) must be of type array, null given" while reading upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:54:01 [error] 31#31: *25 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":485437597}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 11:54:01 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+null" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:54:16 [error] 31#31: *25 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":2122494948}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 11:54:16 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+nullPHP message: [critical] Uncaught PHP Exception TypeError: "array_keys(): Argument #1 ($array) must be of type array, null given" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Response/ResponseParser.php line 149
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "ker
+2021/04/27 11:54:16 [error] 31#31: *25 FastCGI sent in stderr: "tion" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:54:16 [error] 31#31: *25 FastCGI sent in stderr: "PHP message: 2021-04-27T11:54:16+00:00 [critical] Uncaught Error: array_keys(): Argument #1 ($array) must be of type array, null given" while reading upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:55:03 [error] 31#31: *30 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":150506374}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 11:55:03 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+null" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:56:21 [error] 31#31: *33 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:56:29 [error] 31#31: *33 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:56:30 [error] 31#31: *33 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:56:30 [error] 31#31: *33 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:57:20 [error] 31#31: *39 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":772447875}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 11:57:20 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+nullPHP message: [critical] Uncaught PHP Exception TypeError: "array_keys(): Argument #1 ($array) must be of type array, null given" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Response/ResponseParser.php line 149
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kern
+2021/04/27 11:57:20 [error] 31#31: *39 FastCGI sent in stderr: "ion" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:57:20 [error] 31#31: *39 FastCGI sent in stderr: "PHP message: 2021-04-27T11:57:20+00:00 [critical] Uncaught Error: array_keys(): Argument #1 ($array) must be of type array, null given" while reading upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 11:57:44 [error] 31#31: *42 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":859551869}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 11:57:44 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+null" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 12:00:06 [error] 31#31: *45 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:00:06 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+null" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 12:02:13 [error] 31#31: *48 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:02:13 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+null" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 12:03:24 [error] 31#31: *51 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"user_id":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:03:24 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+null" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 12:03:36 [error] 31#31: *51 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"user_id":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:03:36 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+null" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 12:03:47 [error] 31#31: *51 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"user_id":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:03:47 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+null" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 12:07:08 [error] 31#31: *58 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:07:08 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+null" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 12:08:23 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:08:23 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "balance": 100.11
+    }
+}" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 12:09:06 [error] 31#31: *64 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:09:06 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "balance": 100.11
+    }
+}" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 12:09:09 [error] 31#31: *64 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:09:09 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "balance": 100.11
+    }
+}" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 12:09:10 [error] 31#31: *64 FastCGI sent in stderr: "PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://172.201.0.110/balance/user-balance")" at /var/www/symfony/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Htt
+2021/04/27 12:09:10 [error] 31#31: *64 FastCGI sent in stderr: "tpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110", referrer: "http://172.201.0.110/balance/user-balance"
+2021/04/27 12:09:13 [error] 31#31: *64 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:09:13 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "balance": 100.11
+    }
+}" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/user-balance HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 12:09:44 [error] 31#31: *70 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:09:44 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "balance": 100.11
+    }
+}PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] 
+2021/04/27 12:10:00 [error] 31#31: *73 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:10:00 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "balance": 100.11
+    }
+}PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] 
+2021/04/27 12:10:02 [error] 31#31: *73 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:10:02 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "balance": 100.11
+    }
+}PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] 
+2021/04/27 12:10:03 [error] 31#31: *73 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:10:03 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "balance": 100.11
+    }
+}PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] 
+2021/04/27 12:10:03 [error] 31#31: *73 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:10:03 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "balance": 100.11
+    }
+}PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] 
+2021/04/27 12:10:03 [error] 31#31: *73 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:10:03 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "balance": 100.11
+    }
+}PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] 
+2021/04/27 12:12:41 [error] 31#31: *80 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: ==> Request: 
+{"jsonrpc":"2.0","method":"balance.userBalance","id":1,"params":{"userId":10}}PHP message: ==> Headers: 
+array (
+  0 => 'HTTP/1.1 200 OK',
+  1 => 'Server: nginx',
+  2 => 'Content-Type: application/json',
+  3 => 'Transfer-Encoding: chunked',
+  4 => 'Connection: close',
+  5 => 'X-Powered-By: PHP/8.0.2',
+  6 => 'Cache-Control: no-cache, private',
+  7 => 'Date: Tue, 27 Apr 2021 12:12:41 GMT',
+  8 => 'X-Robots-Tag: noindex',
+  9 => '',
+)PHP message: ==> Response: 
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "balance": 100.11
+    }
+}PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] 
+2021/04/27 12:19:04 [error] 31#31: *83 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserbalance".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFi
+2021/04/27 12:19:11 [error] 31#31: *83 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserhistory".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception InvalidArgumentException: "Invalid arguments: Invalid params" at /var/www/symfony/vendor/fguillot/json-rpc/src/JsonRPC/Response/ResponseParser.php line 131
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventL
+2021/04/27 12:19:11 [error] 31#31: *83 FastCGI sent in stderr: "opped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.201.0.1, server: 172.201.0.110, request: "GET /balance/history/10 HTTP/1.1", upstream: "fastcgi://172.201.0.111:9001", host: "172.201.0.110"
+2021/04/27 12:20:25 [error] 31#31: *87 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserhistory".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFi
+2021/04/27 12:21:57 [error] 31#31: *90 FastCGI sent in stderr: "PHP message: [info] Matched route "app_balance_getuserhistory".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFi
